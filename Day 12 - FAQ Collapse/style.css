@@ -1,14 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
 
 *{
     box-sizing: border-box;
 }
 body{
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    height: 100vh;
+    font-family: 'Muli', sans-serif;
+    background-color: #e6e6e6;
+}
+h1{
+    text-align: center;
+    margin: 40px 0 40px;
+}
+.container{
+    max-width: 750px;
+    margin: auto;
+}
+.faq{
+    background-color: transparent;
+    position: relative;
+    border: 1px solid rgb(133, 133, 133);
+    margin: 20px 0px;
+    border-radius: 5px;
+    padding: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.faq.active{
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+.faq.active::after,.faq.active::before{
+    content: '\f075';
+    font-family: "Font Awesome 5 Free";
+    color: green;
+    font-size: 7rem;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 0.2;
+    z-index: 1;
+}
+.faq.active::after{
+    color: blue;
+    opacity: 0.2;
+    top: -20px;
+    left: -20px;
+    transform: rotateY(180deg);
+}
+.faq.active .faqHead{
+    margin: 30px 0px 0px;
+}
+.faqqAnsawer{
+    margin: 30px 0px 0px;
+    display: none;
+}
+.faq.active .faqqAnsawer{
+    display: block;
+}
+.faqToggel{
+    background: none;
+    border: none;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    text-align: center;
+}
+.faq.active .faqToggel .fa-chevron-down{
+    display: none;
+}
+.faq.active .faqToggel .fa-times{
+    display: block;
+    background-color: rgb(73, 73, 97);
+    color: white;
+}
+.faq.active .faqToggel {
+    background-color: rgb(73, 73, 97);
+    color: white;
+}
+.faq .faqToggel .fa-times{
+    display: none;
 }
