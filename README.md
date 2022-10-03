@@ -10,3 +10,4 @@
 - [x] Day 08 - Form Wave Animation
 - [x] Day 09 - Sound Board
 - [x] Day 10 - Dad Jokes
+- [x] Day 11 - Event KeyCodes
