@@ -11,3 +11,4 @@
 - [x] Day 09 - Sound Board
 - [x] Day 10 - Dad Jokes
 - [x] Day 11 - Event KeyCodes
+- [x] Day 12 - FAQ Collapse
