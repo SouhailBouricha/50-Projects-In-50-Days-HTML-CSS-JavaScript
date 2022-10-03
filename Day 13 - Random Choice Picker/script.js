@@ -16,8 +16,11 @@ area.addEventListener("input",(e) =>{
         }, 100);
         setTimeout(() => {
             clearInterval(id)
-            let ele = pick();
-            highlite(ele);
+            setTimeout(() => {
+                let ele = pick();
+                highlite(ele);
+            }, 100);
+          
         }, times * 100);
     };
 });
