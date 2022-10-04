@@ -14,6 +14,6 @@
 - [x] Day 12 - FAQ Collapse
 - [x] Day 13 - Random Choice Picker
 - [x] Day 14 - Animated Navigation
-- [x] Day 15 - Incrementing Counter
+- [x] Day 15 - Incrementing Counter 
 - [x] Day 16 - Drink Water
 - [x] Day 17 - Movie App 
