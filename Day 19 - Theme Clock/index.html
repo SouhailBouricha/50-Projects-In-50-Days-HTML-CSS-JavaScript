@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,10 +13,21 @@
     <link rel="shortcut icon" href="./icons/clock.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Project</title>
+    <title>Theme Clock</title>
   </head>
   <body>
-    <h1>My Project</h1>
+    <button class="darkMode">Drak Mode</button>
+    <div class="clockContainer">
+
+      <div class="clock">
+        <div class="needel hour"></div>
+        <div class="needel minute"></div>
+        <div class="needel seconde"></div>
+        <div class="center"></div>
+      </div>
+      <h2 class="time">2:00</h2>
+      <h3 class="date">Monday, October, <span class="circel">10</span></h3>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
