@@ -17,4 +17,5 @@
 - [x] Day 15 - Incrementing Counter 
 - [x] Day 16 - Drink Water
 - [x] Day 17 - Movie App 
+- [x] Day 18 - Background Slider
        
