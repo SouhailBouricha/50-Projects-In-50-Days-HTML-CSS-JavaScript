@@ -18,4 +18,5 @@
 - [x] Day 16 - Drink Water
 - [x] Day 17 - Movie App 
 - [x] Day 18 - Background Slider
+- [x] Day 19 - Theme Clock
        
