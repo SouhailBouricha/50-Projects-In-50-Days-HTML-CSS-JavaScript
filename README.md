@@ -18,7 +18,7 @@
 - [x] Day 16 - Drink Water
 - [x] Day 17 - Movie App 
 - [x] Day 18 - Background Slider
-- [x] Day 19 - Theme Clock
+- [x] Day 19 - Theme Clock 
 - [x] Day 20 - Button Ripple Effect
 - [x] Day 21 - Drag N Drop
 - [x] Day 22 - Drawing App
