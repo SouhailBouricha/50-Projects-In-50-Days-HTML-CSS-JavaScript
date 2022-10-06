@@ -28,7 +28,7 @@ function setTime(){
     const date = time.getDate();
     const ampm = hours > 12 ? "PM" : "Am";
     // console.log(time,hours,hoursReady,minutes,seconds);
-    // console.log(date);
+    console.log(date);
     hour.style = `transform: translate(-50%, -100%) rotate(${scale(hoursReady,0,11,0,360)}deg)`;
     minute.style = `transform: translate(-50%, -100%) rotate(${scale(minutes,0,59,0,360)}deg)`;
     seconde.style = `transform: translate(-50%, -100%) rotate(${scale(seconds,0,59,0,360)}deg)`;
