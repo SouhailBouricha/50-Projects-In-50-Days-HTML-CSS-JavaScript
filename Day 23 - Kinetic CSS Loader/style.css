@@ -11,4 +11,49 @@ body{
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    background-color: rgb(38, 38, 73);
+}
+.tra{
+    position: relative;
+    height: 80px;
+    width: 80px;
+}
+.tra::before,.tra::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: white;
+    animation: traA 2s linear infinite 0.5s;
+}
+.tra::before{
+    transform: rotate(90deg);
+    animation: traB 2s linear infinite;
+}
+@keyframes traA {
+    0%,25%{
+        transform: rotate(0deg);
+    }
+    50%,75%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+
+    }
+}
+@keyframes traB {
+    0%,25%{
+        transform: rotate(90deg);
+    }
+    50%,75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(450deg);
+
+    }
 }
