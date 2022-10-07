@@ -23,5 +23,5 @@
 - [x] Day 21 - Drag N Drop
 - [x] Day 22 - Drawing App
 - [x] Day 23 - Kinetic CSS Loader
-
+- [x] Day 24 - Content Placeholder
          
