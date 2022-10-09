@@ -26,4 +26,5 @@
 - [x] Day 24 - Content Placeholder
 - [x] Day 25 - Sticky Navbar
 - [x] Day 26 - Double Vertical Slider
+- [x] Day 27 - Toast Notification
          
