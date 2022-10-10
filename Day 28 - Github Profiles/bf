@@ -1,0 +1,23 @@
+<div class="card">
+        <div class="avatar">
+          <!-- src="https://randomuser.me/api/portraits/men/30.jpg" -->
+          <img src="./icons/DSC_5658.jpg" alt="avatar" />
+        </div>
+        <div class="card_info">
+          <h2>John Doten</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium,
+            doloribus.
+          </p>
+          <ul>
+            <li>30 <strong>Followers</strong></li>
+            <li>100 <strong>Following</strong></li>
+            <li>30 <strong>Repos</strong></li>
+          </ul>
+          <div class="repos">
+            <a href="#" class="repo">Repo 1</a>
+            <a href="#" class="repo">Repo 2</a>
+            <a href="#" class="repo">Repo 3</a>
+          </div>
+        </div>
+      </div> 

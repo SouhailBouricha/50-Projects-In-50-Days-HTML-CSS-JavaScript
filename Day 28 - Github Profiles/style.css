@@ -1,14 +1,114 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
     box-sizing: border-box;
 }
 body{
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
     display: flex;
     align-items: center;
+    flex-direction: column;
+    background-color: #2a2a72;
     justify-content: center;
+    /* overflow: hidden; */
+    color: white;
+}
+.form{
+    width: 100%;
+    max-width: 700px;
+}
+.form .input{
+    width: 100%;
+    outline: none;
+    padding: 1rem;
+    color: white;
+    background-color: #4c2885;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-family: inherit;
+    margin-bottom: 2rem;
+    box-shadow: 0 5px 10px rgba(154,160, 185, 0.05),0 15px 40px rgba(0,0, 0, 0.1);
+}
+.form .input::placeholder{
+    color: #bbb;
+}
+.card{
+    max-width: 800px;
+    background-color: #4c2885;
+    border-radius: 20px;
+    display: flex;
+    padding: 3rem;
+    margin: 0 1.5rem;
+}
+.avatar{
+    width: 150px;
+    border-radius: 50%;
+    border: 10px solid #2a2a72;
+    height: 150px;
+    flex-shrink: 0;
     overflow: hidden;
+}
+.avatar img{
+    width: 100%;
+    height: 100%;
+}
+.card_info{
+    margin-left: 2rem;
+    color: #eee;
+}
+.card_info h2{
+    margin-top: 0;
+}
+.card_info ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+    max-width: 400px;
+    min-width: 300px;
+}
+.card_info ul li {
+    display: flex;
+    align-items: center;
+}
+.card_info ul li strong{
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+.repo{
+    text-decoration: none;
+    color: #ECEDEF;
+    background-color: #2a2a72;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+
+}
+.repos{
+    min-height: 67px;
+}
+@media screen and (max-width:753px){
+    .card{
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        max-width: 700px;
+        width: 95%;
+    }
+    .form{
+        width: 95%;
+    }
+    .avatar{
+        margin-bottom: 1rem;
+    }
+    .card_info{
+        margin-left: 0;
+    }
 }
