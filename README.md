@@ -28,4 +28,5 @@
 - [x] Day 26 - Double Vertical Slider
 - [x] Day 27 - Toast Notification
 - [x] Day 28 - Github Profiles
+- [x] Day 29 - Double Heart Click
          
