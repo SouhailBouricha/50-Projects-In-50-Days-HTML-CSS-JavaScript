@@ -27,4 +27,5 @@
 - [x] Day 25 - Sticky Navbar
 - [x] Day 26 - Double Vertical Slider
 - [x] Day 27 - Toast Notification
+- [x] Day 28 - Github Profiles
          
