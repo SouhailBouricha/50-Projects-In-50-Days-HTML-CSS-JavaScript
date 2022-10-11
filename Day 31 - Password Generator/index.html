@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./icons/password.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Password Generator</h2>
+      <div class="resul_container">
+        <span class="result"></span>
+        <button class="btn clipboard">
+          <i class="far fa-clipboard"></i>
+        </button>
+      </div>
+      <div class="settings">
+        <div class="setting">
+          <label for="number">Password Length</label>
+          <input type="number" name="number" value="8" id="number" min="4" max="10" step="1" >
+        </div>
+        <div class="setting">
+          <label for="uppercase">Include uppercase letters</label>
+          <input type="checkbox" name="uppercase" id="uppercase" checked>
+        </div>
+        <div class="setting">
+          <label for="lowercase">Include lowercase letters</label>
+          <input type="checkbox" name="lowercase" id="lowercase" checked>
+        </div>
+        <div class="setting">
+          <label for="numberletters">Include number letters</label>
+          <input type="checkbox" name="numberletters" id="numberletters" checked>
+        </div>
+        <div class="setting">
+          <label for="symbols">Include symbols letters</label>
+          <input type="checkbox" name="symbols" id="symbols" checked>
+        </div>
+      </div>
+      <button class="btn btn-large">Generate Password</button>
+    </div>
+    <div class="sucsees">Password Copied To Clipboard</div>
+    <script src="./script.js"></script>
+  </body>
+</html>
