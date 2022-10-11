@@ -30,4 +30,5 @@
 - [x] Day 28 - Github Profiles
 - [x] Day 29 - Double Heart Click
 - [x] Day 30 - Auto Text Effect
+- [x] Day 31 - Password Generator
          
