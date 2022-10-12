@@ -31,4 +31,5 @@
 - [x] Day 29 - Double Heart Click
 - [x] Day 30 - Auto Text Effect
 - [x] Day 31 - Password Generator
+- [x] Day 32 - Good, Cheap, Fast Checkboxes
          
