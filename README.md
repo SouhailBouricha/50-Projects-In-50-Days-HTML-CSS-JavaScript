@@ -33,4 +33,5 @@
 - [x] Day 31 - Password Generator
 - [x] Day 32 - Good, Cheap, Fast Checkboxes
 - [x] Day 33 - Notes App
+- [x] Day 34 - Animated Countdown
          
