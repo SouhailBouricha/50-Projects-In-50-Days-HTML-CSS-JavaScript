@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    background-color: #f8f9fd;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.container{
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+}
+.title{
+    margin: 0;
+}
+.subtitle{
+    display: inline-block;
+    margin: 5px 0 20px;
+    opacity: 0.8;
+}
+.header{
+    background-color: #3e57db;
+    color: white;
+    padding: 30px 20px;
+}
+.header input{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    font-size: 14px;
+    padding: 10px 15px;
+    width: 100%;
+    outline: none;
+}
+.userList{
+    background-color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto;
+}
+.userList li{
+    display: flex;
+    padding: 20px;
+}
+.userList img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+}
+.userList .userInfo{
+    margin-left: 10px;
+}
+.userList .userInfo h4{
+    margin: 0 0 10px;
+}
+.userList .userInfo p{
+    font-size: 12px;
+}
+.userList li:not(:last-of-type){
+    border-bottom: 1px solid #eee;
+}
+.userList li.hide{
+    display: none;
+}
