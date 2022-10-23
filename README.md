@@ -46,3 +46,4 @@
 - [x] Day 44 - Custom Range Slider
 - [x] Day 45 - Netflix Navigation
 - [x] Day 46 - Quiz App
+- [x] Day 47 - Testimonial Box Switcher
