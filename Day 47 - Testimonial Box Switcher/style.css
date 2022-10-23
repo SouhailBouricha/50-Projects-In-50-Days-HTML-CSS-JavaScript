@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+    overflow: hidden;
+}
+.container{
+    background-color: #476ce4;
+    color: white;
+    border-radius: 15px;
+    margin: 20px 0;
+    padding: 50px 80px;
+    max-width: 768px;
+    position: relative;
+}
+.fa-quote{
+    color: rgba(250, 250, 250, 0.1);
+    font-size: 28px;
+    position: absolute;
+    top: 70px;
+}
+.fa-quote-right{
+    left: 40px;
+}
+.fa-quote-left{
+    right: 40px;
+}
+.text{
+    line-height: 28px;
+    text-align: justify;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user .userImage{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.userDetails{
+    margin-left: 10px;
+}
+.username{
+    margin: 0;
+}
+.role{
+    font-weight: normal;
+    margin: 10px 0;
+}
+.bar{
+    background-color: white;
+    height: 4px;
+    width: 100%;
+    transform-origin: left;
+    animation: grow 5s linear infinite;
+}
+@keyframes grow {
+    0%{
+        transform: scaleX(0%);
+    }
+}
+@media screen and (max-width:780px) {
+    .fa-quote{
+        display: none;
+    }
+    .container{
+        padding: 20px 30px;
+    }
+}
