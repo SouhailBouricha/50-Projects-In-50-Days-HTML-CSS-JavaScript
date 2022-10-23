@@ -34,3 +34,14 @@
 - [x] Day 32 - Good, Cheap, Fast Checkboxes
 - [x] Day 33 - Notes App
 - [x] Day 34 - Animated Countdown
+- [x] Day 35 - Image Carousel
+- [x] Day 36 - Hoverboard
+- [x] Day 37 - Pokedex
+- [x] Day 38 - Mobile Tab Navigation
+- [x] Day 39 - Password Strength Background
+- [x] Day 40 - 3D Background Boxes
+- [x] Day 41 - Verify Account UI
+- [x] Day 42 - Live User Filter
+- [x] Day 43 - Feedback UI Design
+- [x] Day 44 - Custom Range Slider
+- [x] Day 45 - Netflix Navigation
