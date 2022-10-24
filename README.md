@@ -49,3 +49,4 @@
 - [x] Day 47 - Testimonial Box Switcher
 - [x] Day 48 - Random Image Feed
 - [x] Day 49 - Todo List
+- [x] Day 50 - Insect Catch Game
