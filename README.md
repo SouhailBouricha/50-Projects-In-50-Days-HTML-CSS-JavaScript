@@ -47,3 +47,4 @@
 - [x] Day 45 - Netflix Navigation
 - [x] Day 46 - Quiz App
 - [x] Day 47 - Testimonial Box Switcher
+- [x] Day 48 - Random Image Feed
