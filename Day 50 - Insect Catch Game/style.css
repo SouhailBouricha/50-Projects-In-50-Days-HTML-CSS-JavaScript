@@ -71,6 +71,57 @@ h1{
     background-color: rgba(255, 255, 255, 0.7);
 }
 .visible{
-    margin-top: -200vh;
+    margin-top: -100vh;
     /* transform: translateY(-100%); */
+}
+.game{
+    position: relative;
+}
+.time{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.score{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.message{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    line-height: 1.88;
+    text-align: center;
+    z-index: 100;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-150%) scale(0);
+    opacity: 0;
+}
+.message.visi{
+    transform: translate(-50%,150%) scale(1);
+    opacity: 1;
+}
+.insect{
+    position: absolute;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 100px;
+    top: 300px;
+    left: 200px;
+    transition: transform 0.3s ease-in-out;
+    transform: translate(-50%,-50%) scale(1);
+}
+.insect img{
+    width: 100px;
+    height: 100px;
+}
+.insect.couth{
+    transform: translate(-50%,-50%) scale(0);
 }
